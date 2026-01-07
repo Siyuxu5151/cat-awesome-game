@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
+    text-align: center;
+    background-color: #ffebf3;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#cat {
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+#cat:active {
+    transform: scale(0.95) rotate(5deg);
+}
+#score {
+    font-size: 24px;
+    margin: 20px 0;
+}
+button {
+    background-color: #ff6b9d;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff4785;
+}
+#reward-message {
+    min-height: 30px;
+    color: #ff4785;
+    font-weight: bold;
+}
